@@ -1,0 +1,37 @@
+services:
+    DB:
+        image: mariadb:latest
+        container_name: DB
+        restart: always
+        networks: 
+          - network
+        ports: 
+          - 23306:3306
+        volumes:
+            - ./mariadb/conf.d:/etc/mysql/conf.d
+            - ./mariadb/data:/var/lib/mysql
+            - ./mariadb/initdb.d:/docker-entrypoint-initdb.d
+        environment:
+            - MYSQL_HOST=localhost
+            - MYSQL_PORT=3306
+            - MYSQL_ROOT_PASSWORD=1234
+            - MYSQL_DATABASE=edu
+            - MYSQL_USER=folder
+            - MYSQL_PASSWORD=1234
+    APP:
+        image: openjdk:latest
+        container_name: APP
+        depends_on: 
+          - DB
+        restart: always
+        ports: 
+          - 80:8080
+        networks: 
+          - network
+        links: 
+          - DB
+        volumes: 
+          - ../build/libs:/usr/local
+        command: java -jar -Dspring.profiles.active=prod /usr/local/app.jar
+networks:
+    network:
