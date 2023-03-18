@@ -27,3 +27,6 @@ hs_err_pid*
 /.gradle/
 /.settings/
 /build/
+
+DS_Store
+/.DS_Store
