@@ -101,40 +101,15 @@ spring:
     url: jdbc:mariadb://DB:3306/edu
 ```
 
+----
 ### YouTube Link
 
-###### 스프링 프로젝트 [Spring URL만들기]
-
-## [![Video Label](http://img.youtube.com/vi/Wbor5JdymHI/0.jpg)](https://youtu.be/Wbor5JdymHI)
-
-###### 스프링 프로젝트 [Thymeleaf]
-
-## [![Video Label](http://img.youtube.com/vi/2ilL4Su6ZzU/0.jpg)](https://youtu.be/2ilL4Su6ZzU)
-
-###### 사용자 테이블 만들기 [User Table]
-
-## [![Video Label](http://img.youtube.com/vi/Z_9RKMg9SYA/0.jpg)](https://youtu.be/Z_9RKMg9SYA)
-
-###### 사용자 정보 불러오기 [User Mapper]
-
-## [![Video Label](http://img.youtube.com/vi/vc7dddX2WmE/0.jpg)](https://youtu.be/vc7dddX2WmE)
-
-###### 사용자 목록 이벤트 [User List]
-
-## [![Video Label](http://img.youtube.com/vi/8Z08xWcI-qY/0.jpg)](https://youtu.be/8Z08xWcI-qY)
-
-###### 사용자 정보 이벤트 [User Detail]
-
-## [![Video Label](http://img.youtube.com/vi/B3UwBuoYry8/0.jpg)](https://youtu.be/B3UwBuoYry8)
-
-###### 사용자 수정 및 삭제 이벤트 [User Update or Delete]
-
-## [![Video Label](http://img.youtube.com/vi/kaAxriCoV1I/0.jpg)](https://youtu.be/kaAxriCoV1I)
-
-###### 사용자 추가 이벤트 [User Create]
-
-## [![Video Label](http://img.youtube.com/vi/Wve-IkCz4A8/0.jpg)](https://youtu.be/Wve-IkCz4A8)
-
-###### 프로젝트 배포하기 [Docker Compose]
-
-## [![Video Label](http://img.youtube.com/vi/oVPBRi1A-eM/0.jpg)](https://youtu.be/oVPBRi1A-eM)
+> * [1. 스프링 프로젝트 (Spring URL만들기)](https://youtu.be/Wbor5JdymHI)
+> * [2. 스프링 프로젝트 (Thymeleaf)](https://youtu.be/2ilL4Su6ZzU)
+> * [3. 사용자 테이블 만들기 (User Table)](https://youtu.be/Z_9RKMg9SYA)
+> * [4. 사용자 정보 불러오기 (User Mapper)](https://youtu.be/vc7dddX2WmE)
+> * [5. 사용자 목록 이벤트 (User List)](https://youtu.be/8Z08xWcI-qY)
+> * [6. 사용자 정보 이벤트 (User Detail)](https://youtu.be/B3UwBuoYry8)
+> * [7. 사용자 수정 및 삭제 이벤트 (User Update or Delete)](https://youtu.be/kaAxriCoV1I)
+> * [8. 사용자 추가 이벤트 (User Create)](https://youtu.be/Wve-IkCz4A8)
+> * [9. 프로젝트 배포하기 (Docker Compose)](https://youtu.be/oVPBRi1A-eM)
